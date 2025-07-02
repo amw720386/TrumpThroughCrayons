@@ -2,7 +2,6 @@
 
 **Trump Tweets in Crayon** is a light-hearted Chrome extension that restyles Donald Trump's tweets (or any account you want to target) using a crayon-style font and customizable theme. It’s a fun way to change the tone of political posts—or anything with an @handle!
 
----
 
 ## Features
 
@@ -11,7 +10,6 @@
 - Auto-updates as you scroll through the feed
 - Toggle ON/OFF via the popup
 
----
 
 ## Installation
 
@@ -21,19 +19,15 @@
 4. Click **"Load unpacked"** and select the project folder.
 5. You're good to go! Visit [https://x.com](https://x.com) and scroll to see the magic.
 
----
 
-## 🎨 Usage
+## Usage
 
 - Click the extension icon in the toolbar.
 - Use the **Enable Crayon Tweets** checkbox to toggle the effect.
 - Tweets that match the configured selector (by default: any with `@`) will update in real time.
 
----
 
-## 🔧 Customization
-
-Want to change who gets the crayon treatment?
+## Customization
 
 Open `content.js` and modify the `isTrump()` function:
 
